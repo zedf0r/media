@@ -44,9 +44,4 @@ export class RenderPosts {
         container.insertAdjacentHTML('beforeend', RenderPosts.renderDenied());
         this._sidepage.classList.add('sidepage-active')
     }
-
-    videoCreate(data, time, geolacation) {
-        const container = document.querySelector('.container__news');
-
-    }
 }
