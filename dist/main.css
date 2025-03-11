@@ -44,10 +44,43 @@ body {
     align-self: center;
 }
 
+.media-buttons {
+    display: flex;
+    column-gap: 15px;
+    justify-content: flex-end;
+}
+
+.visible-hidden {
+    display: none;
+}
+
 .input {
     width: 100%;
-    padding: 10px 15px 30px;
+    padding: 10px 220px 30px 15px;
     border: 1px solid #000;
+}
+
+.media{
+    padding: 15px;
+    border: 1px solid #000;
+    border-radius: 12px;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.video {
+    width: 400px;
+    height: 200px;
+}
+
+.record-video {
+    top: 5px;
+    right: 130px;
+}
+
+.record-audio {
+    top: 5px;
+    right: 5px;
 }
 
 .container__news {
@@ -58,6 +91,8 @@ body {
     row-gap: 20px;
     position: relative;
     z-index: 1;
+    height: 500px;
+    overflow-y: scroll;
 }
 
 .box {
@@ -75,7 +110,7 @@ body {
 }
 
 .box-text p {
-    flex: 0 1 70%;
+    flex: 0 1 60%;
     width: 100%;
 }
 
